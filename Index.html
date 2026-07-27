@@ -385,6 +385,150 @@ AJWA Foods is committed to delivering premium-quality cooking oil and spices for
 <div class="card">
 <img src="images/rice.png" style="
   </section>
-  
+  <!-- TESTIMONIALS -->
+
+<section>
+
+<h2 class="section-title">What Our Customers Say</h2>
+
+<div class="features">
+
+<div class="card">
+<p>"Excellent quality cooking oil. Highly recommended!"</p>
+<h3>★★★★★</h3>
+</div>
+
+<div class="card">
+<p>"The spices add authentic taste to every meal."</p>
+<h3>★★★★★</h3>
+</div>
+
+<div class="card">
+<p>"Premium quality with hygienic packaging."</p>
+<h3>★★★★★</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section style="background:#f8f8f8;">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="card">
+<h3>Is AJWA Cooking Oil 100% Pure?</h3>
+<p>Yes. Our cooking oil is produced with strict quality standards.</p>
+</div>
+
+<br>
+
+<div class="card">
+<h3>Do you sell spices?</h3>
+<p>Yes. We offer premium quality Pakistani spice products.</p>
+</div>
+
+<br>
+
+<div class="card">
+<h3>Can I order by phone?</h3>
+<p>Absolutely. Call the number below to place your order.</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" style="background:#215732;color:white;text-align:center;">
+
+<h2 style="font-size:42px;margin-bottom:25px;font-family:'Playfair Display',serif;">
+Contact For Orders
+</h2>
+
+<p style="font-size:20px;margin-bottom:20px;">
+📞 0333-7273-709
+</p>
+
+<p>
+Premium Cooking Oil & Quality Spices for Every Kitchen
+</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer style="background:#163d24;color:white;padding:40px;text-align:center;">
+
+<h2 style="font-family:'Playfair Display',serif;">
+AJWA Foods
+</h2>
+
+<p style="margin-top:15px;">
+Pure Cooking Oil • Premium Spices
+</p>
+
+<p style="margin-top:15px;">
+© 2026 AJWA Foods. All Rights Reserved.
+</p>
+
+</footer>
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/923337273709"
+style="
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:16px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+z-index:999;
+">
+WhatsApp
+</a>
+
+<script>
+
+const cards=document.querySelectorAll('.card');
+
+window.addEventListener('scroll',()=>{
+
+cards.forEach(card=>{
+
+const top=card.getBoundingClientRect().top;
+
+if(top<window.innerHeight-100){
+
+card.style.opacity="1";
+
+card.style.transform="translateY(0px)";
+
+}
+
+});
+
+});
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+
+card.style.transform="translateY(50px)";
+
+card.style.transition=".7s";
+
+});
+
+</script>
+
+</body>
+</html>
   
   
