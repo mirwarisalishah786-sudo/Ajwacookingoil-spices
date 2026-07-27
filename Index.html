@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AJWA Foods | Premium Cooking Oil & Spices</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Poppins,sans-serif;
+background:#FFF9EE;
+color:#2b2b2b;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+z-index:1000;
+}
+
+nav{
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#215732;
+font-family:"Playfair Display",serif;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#215732;
+font-weight:500;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#F2C230;
+}
+
+.hero{
+padding-top:120px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:90%;
+margin:auto;
+min-height:100vh;
+gap:60px;
+}
+
+.hero-text{
+flex:1;
+}
+
+.hero-text h1{
+font-size:58px;
+line-height:1.2;
+color:#215732;
+font-family:"Playfair Display",serif;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+}
+
+.btn{
+padding:15px 32px;
+border:none;
+border-radius:50px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+transition:.3s;
+}
+
+.primary{
+background:#215732;
+color:white;
+}
+
+.primary:hover{
+background:#163d24;
+transform:translateY(-3px);
+}
+
+.secondary{
+background:#F2C230;
+color:#215732;
+}
+
+.secondary:hover{
+transform:translateY(-3px);
+}
+
+.hero-image{
+flex:1;
+text-align:center;
+}
+
+.hero-image img{
+width:100%;
+max-width:520px;
+border-radius:25px;
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+transition:.5s;
+}
+
+.hero-image img:hover{
+transform:scale(1.03);
+}
+
+.badge{
+display:inline-block;
+background:#F2C230;
+color:#215732;
+padding:10px 20px;
+border-radius:30px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+section{
+padding:90px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+color:#215732;
+font-family:"Playfair Display",serif;
+margin-bottom:60px;
+}
+
+.about{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:60px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+box-shadow:0 15px 30px rgba(0,0,0,.12);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:35px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#215732;
+margin-bottom:10px;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-text h1{
+font-size:42px;
+}
+
+.buttons{
+justify-content:center;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">AJWA Foods</div>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<div class="badge">
+100% Pure & Hygienically Packed
+</div>
+
+<h1>Premium Cooking Oil & Authentic Pakistani Spices</h1>
+
+<p>
+Experience the rich taste of quality cooking with AJWA Foods.
+We provide premium cooking oil and carefully selected spices
+that bring authentic flavor to every kitchen.
+</p>
+
+<div class="buttons">
+
+<button class="btn primary">Explore Products</button>
+
+<button class="btn secondary">
+Contact Now
+</button>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<!-- Replace with your cooking oil image -->
+<img src="images/oil.png" alt="AJWA Cooking Oil">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">
+Why Choose AJWA?
+</h2>
+
+<div class="about">
+
+<div>
+
+<!-- Replace with your second image -->
+<img src="images/rice.png" alt="AJWA Products">
+
+</div>
+
+<div>
+
+<p style="font-size:18px;line-height:1.8;margin-bottom:30px;">
+
+AJWA Foods is committed to delivering premium-quality cooking oil and spices for every household. Our products are carefully selected and hygienically packed to ensure freshness, purity, and authentic taste.
+
+</p>
+
+<div class="features">
+
+<div class="card">
+<h3>100% Pure</h3>
+<p>Premium quality cooking oil.</p>
+</div>
+
+<div class="card">
+<h3>Premium Quality</h3>
+<p>Carefully selected ingredients.</p>
+</div>
+
+<div class="card">
+<h3>Trusted Taste</h3>
+<p>Loved by families across Pakistan.</p>
+</div>
+
+<div class="card">
+<h3>Hygienically Packed</h3>
+<p>Freshness in every pack.</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
